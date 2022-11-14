@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Foodie MP5</string>
+    <string name="title_placeholder">Title</string>
+    <string name="info_placeholder">Info</string>
+    <string name="food_info_placeholder">Here is some info</string>
+    <string name="new_food" tools:ignore="MissingTranslation">What food would you like to add?</string>
+    <string name="new_food_details" tools:ignore="MissingTranslation">What information about this food do you want to include?</string>
+    <string name="tap_questions" tools:ignore="MissingTranslation">Answer the questions below then click submit to add new food to the list.</string>
+    <string name="add_food_item" tools:ignore="MissingTranslation">Add Food Item</string>
+    <string name="broadcast">Button</string>
+
+    <string-array name="food_titles">
+        <item>Kiwi</item>
+        <item>Pizza</item>
+        <item>French Fries</item>
+        <item>Mofongo</item>
+        <!--        <item>Chicken Curry</item>-->
+        <!--        <item>Ramen</item>-->
+        <!--        <item>Spaghetti</item>-->
+        <!--        <item>Gyro</item>-->
+        <!--        <item>Orange</item>-->
+        <!--        <item>Jelly</item>-->
+        <!--        <item>Broccoli</item>-->
+    </string-array>
+
+    <string-array name="food_info">
+        <item>Here is some info on Kiwi!</item>
+        <item>Here is some info on Pizza!</item>
+        <item>Here is some info on French Fries!</item>
+        <item>Here is some info on Mofongo!</item>
+        <!--        <item>Here is some info on Chicken Curry!</item>-->
+        <!--        <item>Here is some info on Ramen!</item>-->
+        <!--        <item>Here is some info on Spaghetti!</item>-->
+        <!--        <item>Here is some info on Gyro!</item>-->
+        <!--        <item>Here is some info on Orange!</item>-->
+        <!--        <item>Here is some info on Jelly!</item>-->
+        <!--        <item>Here is some info on Broccoli!</item>-->
+    </string-array>
+
+    <!--    <string-array name="food_details">-->
+    <!--        <item id="kiwi">There are 42 calories in a kiwi. No recipe required, just peel, slice and eat.</item>-->
+    <!--        <item id="pizza">They're about 250 calories in a slice of lasagne pizza. To make a lasagna pizza pie you need beef or sausage,-->
+    <!--            clover garlics, dried oregano, dried basil,  mascarpone, ricotta, cottage, or cream cheese, shredded mozzarella cheese,-->
+    <!--            shredded parmesan cheese. Here's a link to a recipe.-->
+    <!--            \nhttps://thesaltymarshmallow.com/amazing-lasagna-pizza-recipe/</item>-->
+
+    <!--    </string-array>-->
+
+    <array name="food_images">
+        <item>@drawable/kiwi</item>
+        <item>@drawable/pizza</item>
+        <item>@drawable/french_fries</item>
+        <item>@drawable/mofongo</item>
+        <!--        <item>@drawable/chicken_curry</item>-->
+        <!--        <item>@drawable/ramen</item>-->
+        <!--        <item>spaghetti.jpg</item>-->
+        <!--        <item>@drawable/gyro</item>-->
+        <!--        <item>@drawable/orange</item>-->
+        <!--        <item>jelly.jpg</item>-->
+        <!--        <item>@drawable/broccoli</item>-->
+    </array>
+
+</resources>

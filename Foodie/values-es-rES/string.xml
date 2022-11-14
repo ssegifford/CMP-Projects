@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Foodie MP5</string>
+    <string name="title_placeholder">Título</string>
+    <string name="info_placeholder">Información</string>
+    <string name="food_info_placeholder">Aquí hay algo de información</string>
+
+    <string-array name="food_titles">
+        <item>Kiwi</item>
+        <item>Pizza</item>
+        <item>Papas Fritas</item>
+        <item>Mofongo</item>
+    </string-array>
+
+    <string-array name="food_info">
+        <item>Aquí hay algo de información sobre Kiwi!</item>
+        <item>Aquí hay algo de información sobre Pizza!</item>
+        <item>Aquí hay información sobre papas fritas!</item>
+        <item>Aquí hay algo de información sobre Mofongo!</item>
+    </string-array>
+
+
+    <array name="food_images">
+        <item>@drawable/kiwi</item>
+        <item>@drawable/pizza</item>
+        <item>@drawable/french_fries</item>
+        <item>@drawable/mofongo</item>
+    </array>
+</resources>
