@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Score Counter 2</string>
+    <string name="team_1">SPARTANS</string>
+    <string name="team_2">VIKINGS</string>
+    <string name="one_champion">There Can Only Be One Champion!</string>
+    <string name="count_digit_size">0</string>
+    <string name="play_again">Play Again</string>
+    <string name="search_map">SEARCH MAP</string>
+    <string name="text">Text Your Score!</string>
+    <string name="share_results">Share Results:</string>
+    <string name="dial">DIAL NUMBER</string>
+    <string name="search_maps">SEARCH MAPS</string>
+    <string name="type_location_here">Type Location Here</string>
+    <string name="number_here">Dial Number</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
