@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    tools:ignore="ExtraText">//this code allows me to add comments within code for layout
+    /* RelativeLayout lets you place UI elements relative to each other, or relative to the parent
+    RelativeLayout itself
+    */
+
+    <TextView
+        android:id="@+id/article_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="@dimen/padding_regular"
+        android:text="@string/article_title"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+    /* extract resource for string number for android: padding and android: text, the element names
+    are stored in resource files, in this case in strings.xml and dimens.xml */
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/article_heading">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/article_subheading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_regular"
+                android:text="@string/article_subtitle"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
+
+            <TextView
+                android:id="@+id/article"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web|all"
+                android:lineSpacingExtra="@dimen/line_spacing"
+                android:padding="@dimen/padding_regular"
+                android:text="@string/article_text" />
+        </LinearLayout>
+    </ScrollView>
+    /* android:autoLink make web links in that TextView active.
+    To make a View (such as a TextView) scrollable, embed the View inside a ScrollView.
+    Add LinearLayout to ScrollView to be the single View that ScrollView can contain but
+    LinearLayout can have multiple Views
+    */
+
+</RelativeLayout>
+
