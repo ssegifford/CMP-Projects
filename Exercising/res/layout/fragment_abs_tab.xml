@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AbsTabFragment"
+    android:id="@+id/arms_tab"
+    android:background="@color/black">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/abs_card1"
+        android:layout_width="352dp"
+        android:layout_height="192dp"
+        app:cardBackgroundColor="@color/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.074"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_cross_knee"
+                android:layout_width="233dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                app:srcCompat="@drawable/cross_knee" />
+
+            <TextView
+                android:id="@+id/cross_knee_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="16dp"
+                android:paddingLeft="25dp"
+                android:gravity="center"
+                android:text="@string/cross_knee_plank"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/abs_card2"
+        android:layout_width="352dp"
+        android:layout_height="192dp"
+        app:cardBackgroundColor="@color/custom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.586">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/vertical_leg_crunch"
+                android:layout_width="83dp"
+                android:layout_height="45dp"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="84dp"
+                android:layout_marginEnd="-12dp"
+                android:layout_marginRight="26dp"
+                android:layout_toStartOf="@+id/image_vertical_leg_crunch"
+                android:text="@string/vertical_leg_crunches"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/image_vertical_leg_crunch"
+                android:layout_width="223dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="0dp"
+                app:srcCompat="@drawable/vertical_leg_crunch" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>
